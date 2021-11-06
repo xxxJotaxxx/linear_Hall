@@ -21,5 +21,5 @@ void loop()
             Serial.println("Fuera"); // imprime en monitor serial la palabra Fuera
         ANTERIOR = VALOR;            // actualiza variable ANTERIOR con el actual de VALOR
     }
-    delay(50); // breve demora de medio segundo
+    delay(50); // espera entre lectura y lectura
 }
